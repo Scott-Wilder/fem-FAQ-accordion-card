@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="desktop">
+            <img class="desktop-background" src="images/bg-pattern-desktop.svg">
+            <img class="desktop-woman" src="images\illustration-woman-online-mobile.svg">
+        </div>
+        <div class="mobile">
+            <img class="mobile-woman" src="images\illustration-woman-online-mobile.svg">
+            <img class="mobile-background" src="images\bg-pattern-mobile.svg">
+            <h1 class="faq">FAQ</h1>
+                <!-- Item 1 -->
+                <div class="accordion">
+                    <label for="tm" class="accordionitem">
+                        <h2>How many team members can I invite? </h2></label>
+                    <input type="checkbox" id="tm" />
+                    <img class="arrow" src="images\icon-arrow-down.svg">
+                    <p class="hiddentext">You can invite up to 2 additional users on the Free plan. There is no limit on 
+                    team members for the Premium plan. </p>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion">
+                    <label for="tn" class="accordionitem">
+                    <h2> What is the maximum file upload size?</h2></label>
+                    <input type="checkbox" id="tn"/>
+                    <img class="arrow" src="images\icon-arrow-down.svg">
+                    <p class="hiddentext">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion">
+                    <label for="to" class="accordionitem">
+                    <h2>How do I reset my password?</h2></label>
+                    <input type="checkbox" id="to"/>
+                    <img class="arrow" src="images\icon-arrow-down.svg">
+                    <p class="hiddentext">Click “Forgot password” from the login page or “Change password” from your profile page.
+                    A reset link will be emailed to you.</p>
+                </div>
+                <!-- Item 4 -->
+                <div class="accordion">
+                    <label for="tp" class="accordionitem">
+                    <h2>Can I cancel my subscription?</h2></label>
+                    <input type="checkbox" id="tp"/>
+                    <img class="arrow" src="images\icon-arrow-down.svg">
+                    <p class="hiddentext">Yes! Send us a message and we’ll process your request no questions asked.</p>
+                </div>
+                <!-- Item 5 -->
+                <div class="accordion">
+                    <label for="tq" class="accordionitem">
+                    <h2>Do you provide additional support?</h2></label>
+                    <input type="checkbox" id="tq"/>
+                    <img class="arrow" src="images\icon-arrow-down.svg">
+                    <p class="hiddentext">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+                </div>
+            </div>
+    </div>
+</div>
+
+
+</body>
+</html>
