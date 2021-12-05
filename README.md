@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![1](.\images\desktop_solution.PNG)
+![1](images/desktop_solution.PNG)
 ![2](.\images\desktop_solution_active.PNG)
 ![3](.images\mobile_solution.PNG)
 ![4](.images\mobile_solution_active.PNG)
